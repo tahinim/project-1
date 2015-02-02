@@ -77,14 +77,14 @@ p {
 }   
     
 @-webkit-keyFrames musicnote{
-    0% { -webkit-transform: translateX(100px);
+    0% { -webkit-transform: translateX(200px);
     }
-    50% { -webkit-transform: translateX(200px);
+    50% { -webkit-transform: translateX(20px);
 }
     70% {-webkit-transform: translateY(200px);
     }
     
-    81.74% {-webkit-transform: translateX(400px);
+    81.74% {-webkit-transform: translateX(40px);
     
  }
     
@@ -96,16 +96,16 @@ p {
 }
       
 @keyFrames musicnote{
-    0% { transform: translateX(100px);
+    0% { transform: translateX(200px);
     }
-    50% { transform: translateX(10px);
+    50% { transform: translateX(20px);
 }
     70% {
     transform: translateY(200px);
     }
     
     81.74% {
-    transform: translateX(400px);
+    transform: translateX(40px);
     
     }
     
@@ -121,16 +121,16 @@ p {
 .musicnotetwo{
     position: absolute;
     width: 200px;
-    height: 250px;
+    height: 50px;
     top: 70px;
-    left:180px;
+    left:80px;
 -webkit-animation: musicnotetwo 7s ease-in-out infinite;
     animation: musicnote2 7s ease-in-out infinite;
     background-image:url(../images/musicnotetwo.svg);
 }   
     
 @-webkit-keyFrames musicnotetwo{
-    0% { -webkit-transform: translateX(200px);
+    0% { -webkit-transform: translateX(100px);
     }
     50% { -webkit-transform: translateX(200px);
 }
@@ -225,7 +225,7 @@ p {
 }
 
 
-.calculate {
+.button {
     
     font-size: 1em;
     font-family:sans-serif;
@@ -235,6 +235,7 @@ p {
     cursor: pointer;
     width: 100%;
     text-align: center;
-    margin: 2em;
-    position: fixed;
+    margin: 1em;
+    margin-left: 0em;
+    position: center;
 }
