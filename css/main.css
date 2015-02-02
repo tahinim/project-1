@@ -118,12 +118,12 @@ h1 {
     height: 250px;
     top: 70px;
     left:180px;
--webkit-animation: musicnote2 7s ease-in-out infinite;
+-webkit-animation: musicnotetwo 7s ease-in-out infinite;
     animation: musicnote2 7s ease-in-out infinite;
     background-image:url(../images/musicnotetwo.svg);
 }   
     
-@-webkit-keyFrames musicnote2{
+@-webkit-keyFrames musicnotetwo{
     0% { -webkit-transform: translateX(200px);
     }
     50% { -webkit-transform: translateX(200px);
@@ -142,7 +142,7 @@ h1 {
     }
 }
       
-@keyFrames musicnote2{
+@keyFrames musicnotetwo{
     0% { transform: translateX(100px);
     }
     50% { transform: translateX(200px);
@@ -171,12 +171,12 @@ h1 {
     height: 250px;
     top: 110px;
     left: 110px;
--webkit-animation: spaceship 7s ease-in-out infinite;
-    animation: spaceship 7s ease-in-out infinite;
+-webkit-animation: musicnotethree 7s ease-in-out infinite;
+    animation: musicnotethree 7s ease-in-out infinite;
     background-image:url(../images/musicnotethree.svg);
 }   
     
-@-webkit-keyFrames spaceship{
+@-webkit-keyFrames musicnotethree{
     0% { -webkit-transform: translateX(90px);
     }
     50% { -webkit-transform: translateX(200px);
@@ -195,7 +195,7 @@ h1 {
     }
 }
       
-@keyFrames spaceship{
+@keyFrames musicnotethree{
     0% { transform: translateX(100px);
     }
     50% { transform: translateX(200px);
