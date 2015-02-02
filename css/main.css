@@ -9,7 +9,7 @@ html {
 }
 
 .banner {
-    background-image: url(../images/song.jpg);
+    background-image: url(../images/WeezerMeloHarm.jpg);
     background-size:cover;
     background-position: center center;
     width: 100%;
@@ -18,8 +18,8 @@ html {
 }
 .flute{
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 50px;
+    left: 10px;
     width: 250px;
     height: 250px;
     background-image:url(../images/flute.svg);
