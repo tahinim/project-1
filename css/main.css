@@ -239,3 +239,32 @@ p {
     margin-left: 0em;
     position: center;
 }
+
+@media only screen and (min-width: 25em) {
+}
+
+@media only screen and (min-width: 38em) {
+    .flute{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    width: 250px;
+    height: 250px;
+    background-image:url(../images/flute.svg);
+-webkit-animation: box-rotate 6s linear infinite alternate;
+    animation: box-rotate 6s linear infinite alternate;
+}
+
+@media only screen and (min-width: 60em) {
+.flute{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    width: 250px;
+    height: 250px;
+    background-image:url(../images/flute.svg);
+-webkit-animation: box-rotate 6s linear infinite alternate;
+    animation: box-rotate 6s linear infinite alternate;
+}
+
+}
