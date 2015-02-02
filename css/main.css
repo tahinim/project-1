@@ -1,11 +1,16 @@
 html {
     box-sizing: border-box;
-    background-color:yellow;
+    background-color:green;
 }
 
 
 *, *:;before, *:;after {
     box-sizing: inherit;
+}
+
+h1 {
+    width: 100;
+    text-align: center;
 }
 
 .banner {
@@ -18,7 +23,7 @@ html {
 }
 .flute{
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 10px;
     width: 250px;
     height: 250px;
@@ -60,12 +65,12 @@ html {
     height: 250px;
     top: 50px;
     left: 90px;
--webkit-animation: spaceship 7s ease-in-out infinite;
+-webkit-animation: musicnote 7s ease-in-out infinite;
     animation: musicnote 7s ease-in-out infinite;
     background-image:url(../images/musicnote.svg);
 }   
     
-@-webkit-keyFrames spaceship{
+@-webkit-keyFrames musicnote{
     0% { -webkit-transform: translateX(100px);
     }
     50% { -webkit-transform: translateX(200px);
@@ -113,12 +118,12 @@ html {
     height: 250px;
     top: 70px;
     left:180px;
--webkit-animation: spaceship 7s ease-in-out infinite;
-    animation: spaceship 7s ease-in-out infinite;
+-webkit-animation: musicnote2 7s ease-in-out infinite;
+    animation: musicnote2 7s ease-in-out infinite;
     background-image:url(../images/musicnotetwo.svg);
 }   
     
-@-webkit-keyFrames spaceship{
+@-webkit-keyFrames musicnote2{
     0% { -webkit-transform: translateX(200px);
     }
     50% { -webkit-transform: translateX(200px);
@@ -137,7 +142,7 @@ html {
     }
 }
       
-@keyFrames spaceship{
+@keyFrames musicnote2{
     0% { transform: translateX(100px);
     }
     50% { transform: translateX(200px);
