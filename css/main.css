@@ -9,7 +9,7 @@ html {
 }
 
 .banner {
-    background-image: url(../images/bg.jpeg);
+    background-image: url(../images/song.jpg);
     background-size:cover;
     background-position: center center;
     width: 100%;
@@ -61,7 +61,7 @@ html {
     top: 50px;
     left: 90px;
 -webkit-animation: spaceship 7s ease-in-out infinite;
-    animation: spaceship 7s ease-in-out infinite;
+    animation: musicnote 7s ease-in-out infinite;
     background-image:url(../images/musicnote.svg);
 }   
     
