@@ -1,9 +1,205 @@
 html {
     box-sizing: border-box;
-    background-color: black;
+    background-color: yellow;
 }
 
 
 *, *:;before, *:;after {
     box-sizing: inherit;
+}
+.flute{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    background-image:url(../images/flute.svg);
+-webkit-animation: box-rotate 6s linear infinite alternate;
+    animation: box-rotate 6s linear infinite alternate;
+}
+
+
+
+@-webkit-keyframes box-rotate {
+    
+    0%{-webkit-transform: rotate(0deg);
+    }
+        
+100% {-webkit-transform: rotate(90deg);
+    
+}
+
+}
+
+@keyframes box-rotate {
+    
+    0%{
+        
+  transform: rotate(0deg);
+    }
+        
+100% {
+  transform: rotate(90deg);
+    
+}
+
+}
+
+.musicnote{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 200px;
+    left: 90px;
+-webkit-animation: spaceship 7s ease-in-out infinite;
+    animation: spaceship 7s ease-in-out infinite;
+    background-image:url(../images/musicnote.svg);
+}   
+    
+@-webkit-keyFrames spaceship{
+    0% { -webkit-transform: translateX(100px);
+    }
+    50% { -webkit-transform: translateX(200px);
+}
+    70% {-webkit-transform: translateY(200px);
+    }
+    
+    81.74% {-webkit-transform: translateX(400px);
+    
+ }
+    
+    92% {-webkit-transform: translateX(300px);
+    }
+    
+    100% {-webkit-transform: translateX(100px);
+    }
+}
+      
+@keyFrames spaceship{
+    0% { transform: translateX(100px);
+    }
+    50% { transform: translateX(200px);
+}
+    70% {
+    transform: translateY(200px);
+    }
+    
+    81.74% {
+    transform: translateX(400px);
+    
+    }
+    
+    92% {
+        transform: translateX(300px);
+    }
+    
+    100% {
+        transform: translateX(100px);
+    }
+}
+  
+.musicnotetwo{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 200px;
+    left:180px;
+-webkit-animation: spaceship 7s ease-in-out infinite;
+    animation: spaceship 7s ease-in-out infinite;
+    background-image:url(../images/musicnotetwo.svg);
+}   
+    
+@-webkit-keyFrames spaceship{
+    0% { -webkit-transform: translateX(200px);
+    }
+    50% { -webkit-transform: translateX(200px);
+}
+    70% {-webkit-transform: translateY(200px);
+    }
+    
+    81.74% {-webkit-transform: translateX(400px);
+    
+ }
+    
+    92% {-webkit-transform: translateX(300px);
+    }
+    
+    100% {-webkit-transform: translateX(100px);
+    }
+}
+      
+@keyFrames spaceship{
+    0% { transform: translateX(100px);
+    }
+    50% { transform: translateX(200px);
+}
+    70% {
+    transform: translateY(200px);
+    }
+    
+    81.74% {
+    transform: translateX(400px);
+    
+    }
+    
+    92% {
+        transform: translateX(300px);
+    }
+    
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.musicnotethree{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 100px;
+    left: 110px;
+-webkit-animation: spaceship 7s ease-in-out infinite;
+    animation: spaceship 7s ease-in-out infinite;
+    background-image:url(../images/musicnotethree.svg);
+}   
+    
+@-webkit-keyFrames spaceship{
+    0% { -webkit-transform: translateX(90px);
+    }
+    50% { -webkit-transform: translateX(200px);
+}
+    70% {-webkit-transform: translateY(100px);
+    }
+    
+    81.74% {-webkit-transform: translateX(400px);
+    
+ }
+    
+    92% {-webkit-transform: translateX(200px);
+    }
+    
+    100% {-webkit-transform: translateX(100px);
+    }
+}
+      
+@keyFrames spaceship{
+    0% { transform: translateX(100px);
+    }
+    50% { transform: translateX(200px);
+}
+    70% {
+    transform: translateY(200px);
+    }
+    
+    81.74% {
+    transform: translateX(400px);
+    
+    }
+    
+    92% {
+        transform: translateX(300px);
+    }
+    
+    100% {
+        transform: translateX(100px);
+    }
 }
