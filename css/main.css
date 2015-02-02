@@ -1,15 +1,24 @@
 html {
     box-sizing: border-box;
-    background-color: yellow;
+    background-color:yellow;
 }
 
 
 *, *:;before, *:;after {
     box-sizing: inherit;
 }
+
+.banner {
+    background-image: url(../images/background.svg);
+    background-size:cover;
+    background-position: center center;
+    width: 100%;
+    padding: 1rem 1rem 15rem ;
+    
+}
 .flute{
     position: absolute;
-    top: 200px;
+    top: 50px;
     left: 100px;
     width: 250px;
     height: 250px;
@@ -49,7 +58,7 @@ html {
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 200px;
+    top: 50px;
     left: 90px;
 -webkit-animation: spaceship 7s ease-in-out infinite;
     animation: spaceship 7s ease-in-out infinite;
@@ -75,10 +84,10 @@ html {
     }
 }
       
-@keyFrames spaceship{
+@keyFrames musicnote{
     0% { transform: translateX(100px);
     }
-    50% { transform: translateX(200px);
+    50% { transform: translateX(10px);
 }
     70% {
     transform: translateY(200px);
@@ -102,7 +111,7 @@ html {
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 200px;
+    top: 70px;
     left:180px;
 -webkit-animation: spaceship 7s ease-in-out infinite;
     animation: spaceship 7s ease-in-out infinite;
@@ -155,7 +164,7 @@ html {
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 100px;
+    top: 110px;
     left: 110px;
 -webkit-animation: spaceship 7s ease-in-out infinite;
     animation: spaceship 7s ease-in-out infinite;
