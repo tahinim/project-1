@@ -39,7 +39,6 @@ p {
 }
 
 
-
 @-webkit-keyframes box-rotate {
     
     0%{-webkit-transform: rotate(0deg);
@@ -224,21 +223,12 @@ p {
     }
 }
 
-
-.button {
-    
-    font-size: 1em;
-    font-family:sans-serif;
-    font-style: italic;
-    font-weight:bold;
-    padding:none;
-    cursor: pointer;
-    width: 100%;
-    text-align: center;
-    margin: 1em;
-    margin-left: 0em;
-    position: center;
+.toggle {
+    width: 50px;
+    margin-left: 10em;
+    position: relative;
 }
+
 
 @media only screen and (min-width: 25em) {
 }
@@ -265,6 +255,11 @@ p {
     background-image:url(../images/flute.svg);
 -webkit-animation: box-rotate 6s linear infinite alternate;
     animation: box-rotate 6s linear infinite alternate;
+}
+.toggle {
+    width: 50px;
+    margin-left: 40em;
+    position: relative;
 }
 
 }
