@@ -25,11 +25,11 @@ p {
     background-position: center center;
     width: 100%;
     padding: 1rem 1rem 15rem ;
-    
+    position: relative;
 }
 .flute{
     position: absolute;
-    top: 250px;
+    top: 40px;
     left: 10px;
     width: 250px;
     height: 250px;
@@ -69,7 +69,7 @@ p {
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 50px;
+    top: 30px;
     left: 90px;
 -webkit-animation: musicnote 7s ease-in-out infinite;
     animation: musicnote 7s ease-in-out infinite;
@@ -81,7 +81,7 @@ p {
     }
     50% { -webkit-transform: translateX(20px);
 }
-    70% {-webkit-transform: translateY(200px);
+    70% {-webkit-transform: translateY(0px);
     }
     
     81.74% {-webkit-transform: translateX(40px);
@@ -101,7 +101,7 @@ p {
     50% { transform: translateX(20px);
 }
     70% {
-    transform: translateY(200px);
+    transform: translateY(0px);
     }
     
     81.74% {
@@ -121,7 +121,7 @@ p {
 .musicnotetwo{
     position: absolute;
     width: 200px;
-    height: 50px;
+    height: 100px;
     top: 70px;
     left:80px;
 -webkit-animation: musicnotetwo 7s ease-in-out infinite;
@@ -134,7 +134,7 @@ p {
     }
     50% { -webkit-transform: translateX(200px);
 }
-    70% {-webkit-transform: translateY(200px);
+    70% {-webkit-transform: translateY(0px);
     }
     
     81.74% {-webkit-transform: translateX(400px);
@@ -154,7 +154,7 @@ p {
     50% { transform: translateX(200px);
 }
     70% {
-    transform: translateY(200px);
+    transform: translateY(0px);
     }
     
     81.74% {
@@ -187,7 +187,7 @@ p {
     }
     50% { -webkit-transform: translateX(200px);
 }
-    70% {-webkit-transform: translateY(100px);
+    70% {-webkit-transform: translateY(0px);
     }
     
     81.74% {-webkit-transform: translateX(400px);
@@ -207,7 +207,7 @@ p {
     50% { transform: translateX(200px);
 }
     70% {
-    transform: translateY(200px);
+    transform: translateY(0px);
     }
     
     81.74% {
@@ -258,7 +258,7 @@ p {
 @media only screen and (min-width: 60em) {
 .flute{
     position: absolute;
-    top: 120px;
+    top: 40px;
     left: 10px;
     width: 250px;
     height: 250px;
