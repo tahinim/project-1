@@ -308,6 +308,54 @@ p {
 }
 
 
+
+
+
+.box {
+  height: 50px;
+  top: calc(50% - 50px);
+  width: 200px;
+  background-color: white;
+  transition: all 250ms ease-in;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 25em) {
 }
 
