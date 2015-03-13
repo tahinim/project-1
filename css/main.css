@@ -17,8 +17,36 @@ h1 {
 .section-dark {
   background-color: #003300;
   padding-top:1em;
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
+
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+
+
+.nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-check:checked~.nav {
+    display: block;
+}
+
 
 p {
     width: 100;
