@@ -308,52 +308,37 @@ p {
 }
 
 
-
-
-
 .box {
-  height: 50px;
+  height: 100px;
   top: calc(50% - 50px);
   width: 200px;
   background-color: white;
   transition: all 250ms ease-in;
   opacity: 0;
+    
 }
 
+.js-box-show-hide {
+    opacity: 1;
+    transition: all 250ms ease-out;
+}
 
+.panel {
+  height: 100px;
+  width: 200px;
+  top: 40%;
+  background-color: yellow;
+  transform: translateX(-50%);
+  max-height: 5em;
+  overflow: hidden;
+  transition: all 250ms ease-out;
+  margin-left: 2em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.js-panel-collapse-expand {
+    max-height: 0;
+    overflow: hidden;
+}
 
 
 @media only screen and (min-width: 25em) {
