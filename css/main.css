@@ -313,6 +313,7 @@ p {
   top: calc(50% - 50px);
   width: 200px;
   background-color: white;
+  background-image: url(../images/guitar.jpg);
   transition: all 250ms ease-in;
   opacity: 0;
     
@@ -327,7 +328,8 @@ p {
   height: 100px;
   width: 200px;
   top: 40%;
-  background-color: yellow;
+  background-color: white;
+  background-image: url(../images/guitar.jpg);
   transform: translateX(-50%);
   max-height: 5em;
   overflow: hidden;
