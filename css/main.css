@@ -18,6 +18,7 @@ h1 {
   background-color: #003300;
   padding-top:1em;
   padding-bottom: 1em;
+  position: relative;
 }
 
 
@@ -57,17 +58,24 @@ h1 {
     font-size: 1.25rem;
     width: 40px;
     display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .nav-check:checked~.nav-label {
-    background-color: green;
+    background-color: #333;
 }
 
- .nav-label img {
+ .nav-open,
+ .nav-close {
      display: block;
      width: 100%;
  }
 
+.nav-closer {
+    display: none;
+}
 
 p {
     width: 100;
