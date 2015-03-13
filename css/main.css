@@ -47,6 +47,27 @@ h1 {
     display: block;
 }
 
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-label {
+    cursor: pointer;
+    font-size: 1.25rem;
+    width: 40px;
+    display: inline-block;
+}
+
+.nav-check:checked~.nav-label {
+    background-color: green;
+}
+
+ .nav-label img {
+     display: block;
+     width: 100%;
+ }
+
 
 p {
     width: 100;
