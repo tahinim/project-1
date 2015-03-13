@@ -73,9 +73,18 @@ h1 {
      width: 100%;
  }
 
-.nav-closer {
+.nav-close {
     display: none;
 }
+
+.nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+}
+
 
 p {
     width: 100;
