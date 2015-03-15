@@ -323,6 +323,7 @@ p {
   opacity: 0;
   color: black;
   text-align: center;
+  margin-bottom: 1em;
     
 }
 
@@ -341,13 +342,15 @@ p {
   width: 200px;
   top: 50%;
   background-color: pink;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   max-height: 10em;
   overflow: hidden;
   transition: all 250ms ease-out;
   margin-left: 4em;
   color: black;
   text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .panel h2 {
@@ -362,14 +365,12 @@ p {
 }
 
 .buttons {
-    margin-left: 40em;
     width: 100%;
     position: absolute;
 }
 
 .diamond {
   height: 100px;
-  right: 4em;
   top: calc(50% - 70px);
   width: 200px;
   transition: all 250ms ease-in;
@@ -377,6 +378,9 @@ p {
   color: black;
   text-align: center;
   max-height: 10em;
+  overflow: hidden;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .diamond h2 {
