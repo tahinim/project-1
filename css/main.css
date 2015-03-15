@@ -15,8 +15,9 @@ h1 {
 }
 
 .logo {
-    width: 10px;
+    width: 100%;
     float: left;
+    margin-top:0;
 }
 
 
@@ -329,7 +330,7 @@ p {
 
 .box h2 {
       margin-left: .5em;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
 .js-box-show-hide {
@@ -354,7 +355,7 @@ p {
 }
 
 .panel h2 {
-  margin-left: 2em;
+  margin-left: 0em;
     padding-top: 1em;
 }
 
@@ -390,7 +391,7 @@ p {
     
 
 .js-diamond-slide {
-    right: -25rem;
+    right:5rem;
     transition: all 250ms ease-out;
     
 }
