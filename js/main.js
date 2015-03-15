@@ -11,3 +11,11 @@ var $panel = $('.panel');
 $btnExpand.on ('click', function () {
     $panel.toggleClass('js-panel-collapse-expand');
 });
+
+
+var $btnmove = $('.btn-move');
+var $pink = $('.diamond');
+
+$btnmove.on ('click',function () {
+    $pink.toggleClass ('js-diamond-slide');
+});

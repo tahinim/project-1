@@ -14,6 +14,12 @@ h1 {
     color: white;
 }
 
+.logo {
+    width: 10px;
+    float: left;
+}
+
+
 .section-dark {
   background-color: #003300;
   padding-top:1em;
@@ -332,7 +338,7 @@ p {
 
 .panel {
   height: 100px;
-  width: 250px;
+  width: 200px;
   top: 50%;
   background-color: pink;
   transform: translateX(-50%);
@@ -355,6 +361,35 @@ p {
     overflow: hidden;
 }
 
+.buttons {
+    margin-left: 40em;
+    width: 100%;
+    position: absolute;
+}
+
+.diamond {
+  height: 100px;
+  right: 4em;
+  top: calc(50% - 70px);
+  width: 200px;
+  transition: all 250ms ease-in;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  max-height: 10em;
+}
+
+.diamond h2 {
+    margin-left: 0em;
+    padding-top: 1em;
+}
+    
+
+.js-diamond-slide {
+    right: -25rem;
+    transition: all 250ms ease-out;
+    
+}
 
 @media only screen and (min-width: 25em) {
 }
