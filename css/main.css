@@ -372,16 +372,17 @@ p {
 
 .diamond {
   height: 100px;
-  top: calc(50% - 70px);
+  top: calc(50% - 40px);
   width: 200px;
-  transition: all 250ms ease-in;
   background-color: yellow;
   color: black;
   text-align: center;
   max-height: 10em;
   overflow: hidden;
-  margin-top: 1em;
+  margin-top: 0em;
   margin-bottom: 1em;
+  right:17em;
+  position: absolute;
 }
 
 .diamond h2 {
@@ -391,13 +392,19 @@ p {
     
 
 .js-diamond-slide {
-    right:5rem;
+    right: -5em;
     transition: all 250ms ease-out;
+    transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in;
+  transition-delay: initial;
     
 }
 
+
 @media only screen and (min-width: 25em) {
 }
+
 
 @media only screen and (min-width: 38em) {
     .flute{
