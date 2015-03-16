@@ -356,7 +356,7 @@ p {
 
 .panel h2 {
   margin-left: 0em;
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 
@@ -365,9 +365,64 @@ p {
     overflow: hidden;
 }
 
+
+.paneltwo {
+  height: 100px;
+  width: 200px;
+  top: 50%;
+  background-color: yellow;
+  transform: translateX(-30%);
+  max-height: 10em;
+  overflow: hidden;
+  transition: all 250ms ease-out;
+  margin-left: 4em;
+  color: black;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.paneltwo h2 {
+  margin-left: 0em;
+  padding-top: 1em;
+}
+
+
+.js-paneltwo-collapse-expand {
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+.panelthree {
+  height: 100px;
+  width: 200px;
+  top: 50%;
+  background-color: purple;
+  transform: translateX(-30%);
+  max-height: 10em;
+  overflow: hidden;
+  transition: all 250ms ease-out;
+  margin-left: 4em;
+  color: black;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.panelthree h2 {
+  margin-left: 0em;
+  padding-top: 1em;
+}
+
+
+.js-panelthree-collapse-expand {
+    max-height: 0;
+    overflow: hidden;
+}
 .buttons {
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .diamond {
@@ -382,7 +437,7 @@ p {
   margin-top: 0em;
   margin-bottom: 1em;
   right:17em;
-  position: absolute;
+  xposition: absolute;
 }
 
 .diamond h2 {

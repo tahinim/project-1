@@ -1,9 +1,3 @@
-var $btnShow = $('.btn-show-hide');
-var $box = $('.box');
-
-$btnShow.on ('click', function() {
-    $box.toggleClass('js-box-show-hide');
-});
 
 var $btnExpand = $('.btn-collapse-expand');
 var $panel = $('.panel');
@@ -13,9 +7,17 @@ $btnExpand.on ('click', function () {
 });
 
 
-var $btnmove = $('.btn-move');
-var $pink = $('.diamond');
+var $btnExpand = $('.btn-collapsetwo-expand');
+var $paneltwo = $('.paneltwo');
 
-$btnmove.on ('click',function () {
-    $pink.toggleClass ('js-diamond-slide');
+$btnExpand.on ('click', function () {
+    $paneltwo.toggleClass('js-paneltwo-collapse-expand');
+});
+
+
+var $btnExpand = $('.btn-collapsethree-expand');
+var $panelthree = $('.panelthree');
+
+$btnExpand.on ('click', function () {
+    $panelthree.toggleClass('js-panelthree-collapse-expand');
 });
