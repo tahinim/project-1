@@ -7,17 +7,17 @@ $btnExpand.on ('click', function () {
 });
 
 
-var $btnExpand = $('.btn-collapsetwo-expand');
+var $btnExpandTwo = $('.btn-collapse-expandtwo');
 var $paneltwo = $('.paneltwo');
 
-$btnExpand.on ('click', function () {
+$btnExpandTwo.on ('click', function () {
     $paneltwo.toggleClass('js-paneltwo-collapse-expand');
 });
 
 
-var $btnExpand = $('.btn-collapsethree-expand');
+var $btnExpandThree = $('.btn-collapse-expandthree');
 var $panelthree = $('.panelthree');
 
-$btnExpand.on ('click', function () {
+$btnExpandThree.on ('click', function () {
     $panelthree.toggleClass('js-panelthree-collapse-expand');
 });
