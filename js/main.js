@@ -1,4 +1,3 @@
-
 var $btnExpand = $('.btn-collapse-expand');
 var $panel = $('.panel');
 
@@ -21,3 +20,5 @@ var $panelthree = $('.panelthree');
 $btnExpandThree.on ('click', function () {
     $panelthree.toggleClass('js-panelthree-collapse-expand');
 });
+
+$('.nav').localScroll():
