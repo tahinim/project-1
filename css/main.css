@@ -347,7 +347,7 @@ p {
   height: 100px;
   width: 200px;
   top: 50%;
-  background-color: yellow;
+  background-color: blue;
   transform: translateX(-30%);
   max-height: 10em;
   overflow: hidden;
@@ -433,6 +433,10 @@ p {
     
 }
 
+h2 {
+    
+color: white;
+}
 
 @media only screen and (min-width: 25em) {
 }
