@@ -440,6 +440,21 @@ text-align: center;
 width: 100%;
 }
 
+dt {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	transition: all 5s linear;
+    color: white;
+}
+
+dd {
+	margin: 0;
+	padding: 0;
+	transition: all 1s linear;
+}
+
 @media only screen and (min-width: 25em) {
 }
 
