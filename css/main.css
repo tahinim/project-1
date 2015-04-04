@@ -457,7 +457,7 @@ dd {
 }
 
 .violin {
-    width: 400px;
+    width: 400px;   
     
 }
 
@@ -493,7 +493,7 @@ dd {
 }
 
 #bow {
-    animation: bow-bob 1s ease alternate infinite;
+    animation: bow-bob 0.5s ease alternate infinite;
 }
 
 
@@ -502,7 +502,7 @@ dd {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(20px);
+        transform: translateY(40px);
     }
 }
 
