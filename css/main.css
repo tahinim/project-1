@@ -492,20 +492,27 @@ dd {
     fill: orange;
 }
 
-.js-active #violin {
+#st0 {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+
+#violinstring {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.js-active #violinstring {
     opacity: 1;
 }
 
-#violin {
-     opacity: 0;
+#violinstring {
     transition: all 1s linear;
 }
 
-    transition: all 1s linear;
-}
-
-.js-active #violin {
-    fill:orange;
+.js-active #violinstring {
+    fill: orange;
 }
 
 #bow {
