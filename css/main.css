@@ -492,6 +492,22 @@ dd {
     fill: orange;
 }
 
+.js-active #violin {
+    opacity: 1;
+}
+
+#violin {
+     opacity: 0;
+    transition: all 1s linear;
+}
+
+    transition: all 1s linear;
+}
+
+.js-active #violin {
+    fill:orange;
+}
+
 #bow {
     animation: bow-bob 0.5s ease alternate infinite;
 }

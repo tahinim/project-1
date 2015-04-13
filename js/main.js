@@ -22,3 +22,11 @@ $btnExpandThree.on('click', function () {
 });
 
 $('.nav').localScroll();
+
+var $violin = $('.violin');
+
+$violin.waypoint(function () {
+   console.log('Here'); 
+$violin.addClass ('js-active');
+}, {offset: '90%' } );
+
