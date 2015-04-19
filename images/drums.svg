@@ -8,7 +8,7 @@
 	.st1{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st2{fill:#009B83;}
 	.st3{fill:#F58711;}
-	.st4{fill:none;stroke:#4D080E;stroke-width:9;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;}
 </style>
 <g id="Layer_1" class="st0">
 	
@@ -20,7 +20,7 @@
 <g id="Layer_2">
 	<ellipse class="st2" cx="802.1" cy="822.7" rx="269.1" ry="259.3"/>
 	<circle class="st3" cx="803.1" cy="821.7" r="224.1"/>
-	<line class="st4" x1="801.5" y1="455" x2="801.5" y2="563"/>
+	<line class="st4" x1="801" y1="455" x2="801" y2="563"/>
 	<line class="st4" x1="602.3" y1="996.4" x2="533" y2="1128.4"/>
 	<line class="st4" x1="988.3" y1="1009.9" x2="1047.3" y2="1128.4"/>
 	<line class="st4" x1="387.3" y1="315.2" x2="399" y2="1128.3"/>

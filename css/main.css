@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-color:#006633;
+    background-color:black;
 }
 
 
@@ -11,18 +11,21 @@ html {
 h1 {
     width: 100;
     text-align: center;
+    color:orange;
+}
+
+p {
     color: white;
 }
 
 .logo {
-    width: 100%;
+    width: 100px;
     float: left;
-    margin-top:0;
+    margin: 0em;
 }
 
 
 .section-dark {
-  background-color: #003300;
   padding-top:1em;
   padding-bottom: 1em;
   position: relative;
@@ -48,7 +51,7 @@ h1 {
     text-decoration: none;
     color: white;
     text-align: center;
-    background-color: #009933;
+    background-color:orange;
 }
 
 .nav a:hover {
@@ -104,14 +107,14 @@ p {
 }
 
 .banner {
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/stock-footage-white-music-notes-floating-down-with-black-background.jpg);
     background-size:cover;
     background-position: center center;
     width: 100%;
-    padding: 2rem 2rem 15rem ;
-    margin-top: 7em;
+    padding: 1rem 1rem 15rem ;
     position: relative;
 }
+
 .flute{
     position: absolute;
     top: 40px;
@@ -261,6 +264,7 @@ p {
     height: 250px;
     top: 110px;
     left: 110px;
+    color: white;
 -webkit-animation: musicnotethree 7s ease-in-out infinite;
     animation: musicnotethree 7s ease-in-out infinite;
     background-image:url(../images/musicnotethree.svg);
@@ -316,7 +320,7 @@ p {
 
 
 .panel {
-  height: 500px;
+  height: 550px;
   width: 200px;
   top: 50%;
   transform: translateX(-30%);
@@ -327,7 +331,7 @@ p {
   color: black;
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 
 .panel h2 {
@@ -354,6 +358,7 @@ p {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 1em;
+  margin-left: 2em;
 }
 
 .paneltwo h2 {
@@ -527,7 +532,9 @@ dd {
 
 @media only screen and (min-width: 25em) {
 }
-
+.logo {
+    width: 50px;
+}
 
 @media only screen and (min-width: 38em) {
     .flute{
