@@ -111,10 +111,10 @@ p {
     background-image: url(../images/London-Piano-teacher.jpg);
     background-size:cover;
     background-position: center center;
-    width: 100%;
+    width: 95%;
     padding: 1rem 1rem 15rem ;
     position: relative;
-    margin-top: 6.5em;
+    margin-top: 7em;
 }
 
 .flute{
@@ -321,6 +321,10 @@ p {
     position: relative;
 }
 
+.piano {
+    width: 200px;
+    margin-left: 35em;
+}
 
 .panel {
   height: 550px;
@@ -541,7 +545,12 @@ dd {
 
 .violin {
     width: 300px;   
-    
+}
+
+.piano {
+    width: 90px;
+    margin-left: 8em;
+}
 
 @media only screen and (min-width: 38em) {
     .flute{
@@ -575,5 +584,10 @@ dd {
     margin-left: 40em;
     position: relative;
 }
+    .piano {
+    width: 200px;
+    margin-left: 35em;
+}
+
 
 }
