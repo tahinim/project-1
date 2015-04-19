@@ -326,6 +326,11 @@ p {
     margin-left: 35em;
 }
 
+.tamborine {
+    width: 200px;
+    margin-left: 5em;
+}
+
 .panel {
   height: 550px;
   width: 200px;
@@ -557,7 +562,7 @@ dd {
     margin-left: 5em;
 }
     
-.tamborine {
+.tambourine {
     width: 200px;
     margin-left: 5em;
 }
@@ -602,7 +607,7 @@ dd {
     width: 200px;
     margin-left: 35em;
 }
-.tamborine {
+.tambourine {
     width: 200px;
     margin-left: 35em;
 }
