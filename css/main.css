@@ -548,10 +548,19 @@ dd {
 }
 
 .piano {
-    width: 90px;
-    margin-left: 8em;
+    width: 200px;
+    margin-left: 5em;
 }
 
+.guitar {
+    width: 200px;
+    margin-left: 5em;
+}
+    
+.tamborine {
+    width: 200px;
+    margin-left: 5em;
+}
 @media only screen and (min-width: 38em) {
     .flute{
     position: absolute;
@@ -576,7 +585,7 @@ dd {
     animation: box-rotate 6s linear infinite alternate;
 }
 .violin {
-    width: 300px;   
+    width: 200px;   
     
 }
 .toggle {
@@ -589,5 +598,12 @@ dd {
     margin-left: 35em;
 }
 
-
+.guitar {
+    width: 200px;
+    margin-left: 35em;
+}
+.tamborine {
+    width: 200px;
+    margin-left: 35em;
+}
 }
