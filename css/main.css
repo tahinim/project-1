@@ -316,10 +316,9 @@ p {
 
 
 .panel {
-  height: 100px;
+  height: 500px;
   width: 200px;
   top: 50%;
-  background-color: pink;
   transform: translateX(-30%);
   max-height: 10em;
   overflow: hidden;
@@ -344,18 +343,16 @@ p {
 
 
 .paneltwo {
-  height: 100px;
+  height: 400px;
   width: 200px;
   top: 50%;
-  background-color: blue;
   transform: translateX(-30%);
   max-height: 10em;
   overflow: hidden;
   transition: all 250ms ease-out;
-  margin-left: 4em;
   color: black;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
 }
 
@@ -372,15 +369,13 @@ p {
 
 
 .panelthree {
-  height: 100px;
+  height: 400px;
   width: 200px;
   top: 50%;
-  background-color: purple;
   transform: translateX(-30%);
   max-height: 10em;
   overflow: hidden;
   transition: all 250ms ease-out;
-  margin-left: 4em;
   color: black;
   text-align: center;
   margin-top: 1em;
